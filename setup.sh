@@ -120,7 +120,7 @@ heroku pipelines:add $HEROKU_PIPELINE_NAME -a $HEROKU_PROD_APP_NAME -s productio
 
 # Setup your pipeline
 heroku pipelines:connect $HEROKU_PIPELINE_NAME --repo $GITHUB_REPO
-heroku reviewapps:enable -p $HEROKU_PIPELINE_NAME -a $HEROKU_DEV_APP_NAME --autodeploy --autodestroy
+heroku reviewapps:enable -p $HEROKU_PIPELINE_NAME -a $HEROKU_STAGING_APP_NAME --autodeploy --autodestroy
 
 #heroku ci:config:set -p $HEROKU_PIPELINE_NAME SFDX_DEV_HUB_AUTH_URL=$devHubSfdxAuthUrl
 heroku ci:config:set -p $HEROKU_PIPELINE_NAME SFDX_AUTH_URL=$devSfdxAuthUrl
