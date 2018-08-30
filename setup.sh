@@ -20,12 +20,12 @@ HEROKU_TEAM_NAME="dev-demo"
 HEROKU_APP_NAME="MyLightningApp"
 
 # Name of the Heroku apps you'll use
-HEROKU_DEV_APP_NAME="dev$TICKS"
-HEROKU_STAGING_APP_NAME="staging$TICKS"
-HEROKU_PROD_APP_NAME="prod$TICKS"
+HEROKU_DEV_APP_NAME="align-sf-dev-org"
+HEROKU_STAGING_APP_NAME="align-sf-staging-org"
+HEROKU_PROD_APP_NAME="align-sf-prod-org"
 
 # Pipeline
-HEROKU_PIPELINE_NAME="pipeline$TICKS"
+HEROKU_PIPELINE_NAME="salesforce-pipeline"
 
 # Usernames or aliases of the orgs you're using
 DEV_HUB_USERNAME="HubOrg"
